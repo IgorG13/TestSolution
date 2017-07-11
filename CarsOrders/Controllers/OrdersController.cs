@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CarsOrders.Models;
-using CarsOrders.Models.BLL;
 using CarsOrders.Models.Statistic;
 using CarsOrders.Models.Interfaces;
 using System.Net;
+using CarsOrders.Models.BLL;
 
 namespace CarsOrders.Controllers
 {
