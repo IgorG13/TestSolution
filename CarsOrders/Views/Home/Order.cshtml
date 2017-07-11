@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Orders";
+}
+
+<!doctype html>
+<html ng-app="ordersApp">
+<head>
+    <meta charset="utf-8">
+</head>
+<body ng-controller="ordersController">
+    <div class="page-header">
+        <h1> @ViewData["Title"] </h1>
+    </div>
+    <div class="panel">
+        <div class="form-inline">
+
+            <div class="form-group">
+                <div class="col-md-12">
+                    <div class='input-group date' id='orderdate'>
+                        <input type='text' class="form-control" ng-model="orderdate" placeholder="Choose date"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-8">
+                    <input class="form-control" id="model" ng-model="orderNumber" required maxlength="50" placeholder="Order number" />
+                </div>
+            </div>
+            <div class="form-group">
+                <select class="form-control" ng-model="carID" ng-hide="hideSelectCar">
+                    <option value="">Please choose...</option>
+                    <option ng-repeat="car in cars" value="{{car.id}}">{{car.info}}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-8">
+                    <button class="btn btn-default" ng-click="addOrder(carID, orderDate, orderNumber)">Add order</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-8">
+                    <button class="btn btn-default" ng-click="showStatistic()">Show statistic</button>
+                </div>
+            </div>
+        </div>
+        <div><img class="loading" ng-show="loading" src="https://www.epimedyumsitesi.net/siparis/loading.gif" /></div>
+        <table class="table table-striped" ng-show="showOrders">
+            <thead>
+                <tr>
+                    <th>Order date</th>
+                    <th>Order number</th>
+                    <th>Car info</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="order in orders">
+                    <td>{{order.orderDate}}</td>
+                    <td>{{order.orderNumber}}</td>
+                    <td>{{order.carInfo}}</td>
+                    <td><button class="btn btn-default" ng-click="deleteOrder(order)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
