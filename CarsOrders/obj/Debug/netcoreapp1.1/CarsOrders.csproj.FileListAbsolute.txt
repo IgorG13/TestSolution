@@ -7,3 +7,5 @@ D:\IG\VS Projects\TestSolution\CarsOrders\bin\Debug\netcoreapp1.1\CarsOrders.dll
 D:\IG\VS Projects\TestSolution\CarsOrders\bin\Debug\netcoreapp1.1\CarsOrders.pdb
 D:\IG\VS Projects\TestSolution\CarsOrders\obj\Debug\netcoreapp1.1\CarsOrders.dll
 D:\IG\VS Projects\TestSolution\CarsOrders\obj\Debug\netcoreapp1.1\CarsOrders.pdb
+d:\IG\VS Projects\TestSolution\CarsOrders\bin\Debug\netcoreapp1.1\CarsOrdersLib.dll
+d:\IG\VS Projects\TestSolution\CarsOrders\bin\Debug\netcoreapp1.1\CarsOrdersLib.pdb

@@ -1,0 +1,7 @@
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\bin\Debug\netcoreapp1.1\CarsOrdersLib.deps.json
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\bin\Debug\netcoreapp1.1\CarsOrdersLib.dll
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\obj\Debug\netcoreapp1.1\CarsOrdersLib.AssemblyInfo.cs
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\obj\Debug\netcoreapp1.1\CarsOrdersLib.csprojResolveAssemblyReference.cache
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\bin\Debug\netcoreapp1.1\CarsOrdersLib.pdb
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\obj\Debug\netcoreapp1.1\CarsOrdersLib.dll
+D:\IG\VS Projects\TestSolution\CarsOrdersLib\obj\Debug\netcoreapp1.1\CarsOrdersLib.pdb
