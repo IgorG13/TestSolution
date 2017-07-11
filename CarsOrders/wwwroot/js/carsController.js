@@ -1,6 +1,6 @@
 ﻿var carsApp = angular.module("carsApp", []);
 
-carsApp.service("cars", function ($http) {
+ carsApp.service("cars", function ($http) {
     this.getCars = function ($http, scope) {
         $http.get("/cars").then(
         function (response) {
